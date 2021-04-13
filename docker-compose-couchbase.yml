@@ -1,0 +1,11 @@
+version: "3"
+services:
+  postgres:
+    container_name: my-couchbase
+    image: library/couchbase:community-6.6.0
+    restart: always
+    ports:
+      - "8091-8094:8091-8094"
+      - "11210:11210"
+    volumes:
+    - $HOME/docker/volume/couchbase:/opt/couchbase/var

@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.mongo.repository;
 
-import com.example.demo.model.Student;
+import com.example.mongo.model.Student;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.repository.CrudRepository;
 

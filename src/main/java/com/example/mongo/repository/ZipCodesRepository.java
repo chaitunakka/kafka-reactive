@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.mongo.repository;
 
-import com.example.demo.model.ZipCodes;
+import com.example.mongo.model.ZipCodes;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import reactor.core.publisher.Flux;
 

@@ -1,11 +1,10 @@
-package com.example.demo;
+package com.example.mongo;
 
-import com.example.demo.model.ZipCodes;
+import com.example.mongo.model.ZipCodes;
 import org.junit.jupiter.api.Test;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.Disposable;
 import reactor.core.publisher.Flux;
-import reactor.core.scheduler.Scheduler;
 import reactor.core.scheduler.Schedulers;
 
 import java.time.Duration;
@@ -13,7 +12,7 @@ import java.util.Arrays;
 import java.util.Base64;
 import java.util.Stack;
 
-class DockerDemoApplicationTest {
+class MongoDemoApplicationTest {
 
     public static void main(String[] args) throws InterruptedException {
         Disposable subscribe = Flux.just("one", "four", "three", "eleven")

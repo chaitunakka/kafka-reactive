@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.mongo.controller;
 
-import com.example.demo.model.ZipCodes;
-import com.example.demo.repository.ZipCodesRepository;
+import com.example.mongo.model.ZipCodes;
+import com.example.mongo.repository.ZipCodesRepository;
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.http.MediaType;
@@ -13,9 +13,7 @@ import reactor.core.publisher.Mono;
 import reactor.kafka.receiver.KafkaReceiver;
 
 import java.time.Duration;
-import java.time.LocalTime;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequiredArgsConstructor

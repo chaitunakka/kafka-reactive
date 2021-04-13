@@ -1,14 +1,11 @@
-package com.example.demo.controller;
+package com.example.mongo.controller;
 
-import com.example.demo.model.Student;
-import com.example.demo.repository.StudentRepository;
-import com.example.demo.repository.ZipCodesRepository;
+import com.example.mongo.model.Student;
+import com.example.mongo.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
